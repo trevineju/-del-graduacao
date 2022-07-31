@@ -1,0 +1,151 @@
+ATENCAO: Nem todas as caracteristicas do enunciado sao testadas neste exemplo.
+         Cabe a cada aluno(a) testar cuidadosamente seu EP.
+
+*** Criando alunos **************************************
+*** Criando Ministrantes **************************************
+*** Criando um Curso **************************************
+*** Adicionando alunos ao Ministrante 1 **************************
+Aluno 'Aluno A' adicionado corretamente.
+Aluno 'Aluno B' adicionado corretamente.
+Aluno 'Aluno B' nao pode ser adicionado.
+Aluno 'Aluno C' adicionado corretamente.
+Aluno 'Aluno E' adicionado corretamente.
+*** Adicionando alunos ao Ministrante 2 **************************
+Aluno 'Aluno C' adicionado corretamente.
+Aluno 'Aluno D' adicionado corretamente.
+*** Adicionando Ministrantes ao Curso ******************************
+#########################################################################
+Imprimindo informacoes do curso.
+Ha 2 ministrante(s) neste curso.
+Ministrante: Ministrante 1	nusp: 12345
+	Numero de alunos: 4
+   1 Aluno A	      22222        0        0 M
+   2 Aluno B	      33333        0        0 M
+   3 Aluno C	      44444        0        0 M
+   4 Aluno E	      66666        0        0 M
+Ministrante: Ministrante 2	nusp: 12121
+	Numero de alunos: 2
+   1 Aluno C	      44444        0        0 M
+   2 Aluno D	      55555        0        0 M
+#########################################################################
+*** Testando a funcao atualizarNotaEFrequencia **************************
+Aluno 'Aluno D' teve a nota e a frequencia atualizadas.
+Aluno 'Aluno E' teve a nota e a frequencia atualizadas.
+Aluno 'Aluno D' nao teve a nota e a frequencia atualizadas.
+Aluno 'Aluno B' teve a nota e a frequencia atualizadas.
+Aluno 'Aluno B' teve a nota e a frequencia atualizadas.
+#########################################################################
+Imprimindo informacoes do curso.
+Ha 2 ministrante(s) neste curso.
+Ministrante: Ministrante 1	nusp: 12345
+	Numero de alunos: 4
+   1 Aluno A	      22222        0        0 M
+   2 Aluno B	      33333       45       70 M
+   3 Aluno C	      44444        0        0 M
+   4 Aluno E	      66666       20       80 M
+Ministrante: Ministrante 2	nusp: 12121
+	Numero de alunos: 2
+   1 Aluno C	      44444        0        0 M
+   2 Aluno D	      55555       50       25 M
+#########################################################################
+*** Testando a funcao atualizarNotaEFrequencia ****************************
+Aluno 'Aluno B' nao teve a nota e a frequencia atualizadas.
+Aluno 'Aluno B' teve a nota e a frequencia atualizadas.
+Aluno 'Aluno A' teve a nota e a frequencia atualizadas.
+Aluno 'Aluno A' nao teve a nota e a frequencia atualizadas.
+#########################################################################
+Imprimindo informacoes do curso.
+Ha 2 ministrante(s) neste curso.
+Ministrante: Ministrante 1	nusp: 12345
+	Numero de alunos: 4
+   1 Aluno A	      22222      100       95 M
+   2 Aluno B	      33333       48       75 M
+   3 Aluno C	      44444        0        0 M
+   4 Aluno E	      66666       20       80 M
+Ministrante: Ministrante 2	nusp: 12121
+	Numero de alunos: 2
+   1 Aluno C	      44444        0        0 M
+   2 Aluno D	      55555       50       25 M
+#########################################################################
+*** Testando a funcao ganharPontoExtra **************************
+Aluno 'Aluno A' ganhou ponto extra.
+Aluno 'Aluno B' nao ganhou ponto extra.
+Aluno 'Aluno C' ganhou ponto extra.
+Aluno 'Aluno D' ganhou ponto extra.
+#########################################################################
+Imprimindo informacoes do curso.
+Ha 2 ministrante(s) neste curso.
+Ministrante: Ministrante 1	nusp: 12345
+	Numero de alunos: 4
+   1 Aluno A	      22222      100       95 M
+   2 Aluno B	      33333       48       75 M
+   3 Aluno C	      44444        5        0 M
+   4 Aluno E	      66666       20       80 M
+Ministrante: Ministrante 2	nusp: 12121
+	Numero de alunos: 2
+   1 Aluno C	      44444        0        0 M
+   2 Aluno D	      55555       70       25 M
+#########################################################################
+*** Testando a funcao darPontoParaATurma *******************
+Aluno 'Aluno B' teve a nota e a frequencia atualizadas.
+#########################################################################
+Imprimindo informacoes do curso.
+Ha 2 ministrante(s) neste curso.
+Ministrante: Ministrante 1	nusp: 12345
+	Numero de alunos: 4
+   1 Aluno A	      22222      100       95 M
+   2 Aluno B	      33333       48       75 M
+   3 Aluno C	      44444        5        0 M
+   4 Aluno E	      66666       30       80 M
+Ministrante: Ministrante 2	nusp: 12121
+	Numero de alunos: 2
+   1 Aluno C	      44444        0        0 M
+   2 Aluno D	      55555       70       25 M
+#########################################################################
+#########################################################################
+Imprimindo informacoes do curso.
+Ha 2 ministrante(s) neste curso.
+Ministrante: Ministrante 1	nusp: 12345
+	Numero de alunos: 4
+   1 Aluno A	      22222      100       95 M
+   2 Aluno B	      33333       50       75 M
+   3 Aluno C	      44444        5        0 M
+   4 Aluno E	      66666       30       80 M
+Ministrante: Ministrante 2	nusp: 12121
+	Numero de alunos: 2
+   1 Aluno C	      44444        0        0 M
+   2 Aluno D	      55555       70       25 M
+#########################################################################
+Aluno 'Aluno C' teve a nota e a frequencia atualizadas.
+#########################################################################
+Imprimindo informacoes do curso.
+Ha 2 ministrante(s) neste curso.
+Ministrante: Ministrante 1	nusp: 12345
+	Numero de alunos: 4
+   1 Aluno A	      22222      100       95 M
+   2 Aluno B	      33333       50       75 M
+   3 Aluno C	      44444        5        0 M
+   4 Aluno E	      66666       30       80 M
+Ministrante: Ministrante 2	nusp: 12121
+	Numero de alunos: 2
+   1 Aluno C	      44444       48       75 M
+   2 Aluno D	      55555       70       25 M
+#########################################################################
+#########################################################################
+Imprimindo informacoes do curso.
+Ha 2 ministrante(s) neste curso.
+Ministrante: Ministrante 1	nusp: 12345
+	Numero de alunos: 4
+   1 Aluno A	      22222      100       95 A
+   2 Aluno B	      33333       50       75 A
+   3 Aluno C	      44444        5        0 E
+   4 Aluno E	      66666       30       80 R
+Ministrante: Ministrante 2	nusp: 12121
+	Numero de alunos: 2
+   1 Aluno C	      44444       48       75 R
+   2 Aluno D	      55555       70       25 F
+#########################################################################
+
+ATENCAO: Nem todas as caracteristicas do enunciado sao testadas neste exemplo.
+         Cabe a cada aluno testar cuidadosamente seu EP.
+

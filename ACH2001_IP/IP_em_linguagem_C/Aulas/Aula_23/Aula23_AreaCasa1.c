@@ -1,0 +1,96 @@
+/*
+	Programa para calcular a área de uma casa com piscina, conforme
+	projeto específico.
+	Há um arranjo com o preço dos materiais, bem como uma matriz com os
+	nomes dos materiais.
+	Há também a criação de uma matriz de preços, criada usando alocação
+	dinâmica de memória e cujos valores são preenchidos/carregados usando
+	uma função auxiliar.
+*/
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#define false 0
+#define true 1
+
+#define ALVENARIA 0
+#define VINIL 1
+#define FIBRA 2
+#define PLASTICO 3
+
+typedef int bool;
+
+/* nomes dos materiais */
+char nomes[4][10] = {{'A','l','v','e','n','a','r','i','a'},{'V','i','n','i','l'},
+{'F','i','b','r','a'},{'P','l','a','s','t','i','c','o'}};
+
+int valorM2 = 1500;
+
+double precos[] = {1500, 1100, 750, 500};
+
+double valorPiscina(double area, int material) {
+  if (material<ALVENARIA || material>PLASTICO || area<0) return(-1);
+  return(area*precos[material]);
+}
+
+void areaCasa(float lateral, float cquarto){
+   float areaq;
+   float areas;
+   float areat;
+   if (!(lateral>=0 && cquarto>=0))
+      printf("Erro: parâmetro < 0\\n");
+   else {
+      printf("Programa para cálculo da área da casa\n");
+      areas = lateral*lateral;
+      printf("A área da sala é %f\n", areas);
+      areaq = cquarto*(lateral/2);
+      printf("A área do quarto é %f\n", areaq);
+      printf("A área do banheiro é %f\n", areaq);
+      areat = areas + 2*areaq;
+      printf("A área total é %f\n", areat);
+   }
+}
+
+double areaPiscina(double raio){
+   return((raio >= 0) ? M_PI*raio*raio : -1);
+}
+
+double valor(double area) {
+   if (area >= 0) {
+      return valorM2*area;
+   }
+   return -1;
+}
+
+void carregaVal(double** m){
+  int i,j;
+  for (i=0; i<4; i++) {
+    for (j=50; j<=200; j+=50) {
+      m[i][j / 50 - 1] = precos[i]*j;
+    }
+  }
+}
+
+int main() {
+  int i,j;
+  double** valores = (double**) malloc(sizeof(double*)*4);
+  for (i=0;i<4;i++) valores[i] = (double*) malloc(sizeof(double)*4);
+  carregaVal(valores);
+  
+  for (i=0; i<4; i++) {
+    for (j=0; j<4; j++) {
+      printf("%9.2f\t",valores[i][j]);
+    }
+    printf("\n");
+  }
+  
+  return 0;
+}
+
+
+/* SAIDA
+ 75000.00   150000.00   225000.00   300000.00
+ 55000.00   110000.00   165000.00   220000.00
+ 37500.00    75000.00   112500.00   150000.00
+ 25000.00    50000.00    75000.00   100000.00
+*/

@@ -1,0 +1,68 @@
+Valor: 2345
+Milhares: 2
+Centenas: 3
+Dezenas : 4
+Unidades: 5
+
+Valor: 606
+Milhares: 0
+Centenas: 6
+Dezenas : 0
+Unidades: 6
+
+Valor: -1
+Milhares: -1
+Centenas: -1
+Dezenas : -1
+Unidades: -1
+
+Base: 0.000000; Expoente: 0; Resultado: 0.000000
+
+Base: 10.000000; Expoente: -2; Resultado: 0.000000
+
+Base: 10.000000; Expoente: 0; Resultado: 1.000000
+
+Base: 3.000000; Expoente: 4; Resultado: 81.000000
+
+Base: 3.141592; Expoente: 2; Resultado: 9.869600
+
+Base: 2.000000; Expoente: 20; Resultado: 1048576.000000
+
+Inicio: 0.000000; Fim: 10.000000; Passo: 2.000000; Resultado: 0.000000
+
+Inicio: 3.200000; Fim: 4.000000; Passo: 0.200000; Resultado: 14.000000
+
+Inicio: 3.200000; Fim: 4.000000; Passo: 0.300000; Resultado: 10.500000
+
+Inicio: 1.000000; Fim: 2.000000; Passo: 0.250000; Resultado: 5.500000
+
+Dividendo: 0.000000; Divisor: 10.000000; Limiar: 2.000000; Passos: -1
+
+Dividendo: 10.000000; Divisor: 1.000000; Limiar: 2.000000; Passos: -1
+
+Dividendo: 3.200000; Divisor: 1.600000; Limiar: 1.100000; Passos: 3
+
+Dividendo: 5.000000; Divisor: 8.000000; Limiar: 1.000000; Passos: 1
+
+Valor de n: -1; Resultado: -1
+
+Valor de n: 0; Resultado: 0
+
+Valor de n: 1; Resultado: 1
+
+Valor de n: 2; Resultado: 1
+
+Valor de n: 3; Resultado: 2
+
+Valor de n: 4; Resultado: 3
+
+Valor de n: 5; Resultado: 5
+
+Valor de n: 6; Resultado: 8
+
+Valor de n: 7; Resultado: 13
+
+Valor de n: 10; Resultado: 55
+
+Valor de n: 50; Resultado: 12586269025
+
